@@ -1,0 +1,455 @@
+.body {
+  cursor: default;
+}
+
+.background {
+  position: absolute;
+  top: 0px;
+  left: 128px;
+  backdrop-filter: blur(76px);
+  background-color: var(--color-whitesmoke);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+}
+
+.authwindow1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08),
+    0px 20px 32px rgba(96, 97, 112, 0.24);
+  border-radius: 24px;
+  background-color: var(--color-white);
+  width: 732px;
+  height: 750px;
+  overflow: hidden;
+}
+
+.logIn {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 25px);
+  font-weight: 600;
+}
+
+.login {
+  width: 302px;
+  position: relative;
+  background-color: var(--color-tan);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.signUp {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 33px);
+  font-weight: 600;
+}
+
+.signup2 {
+  width: 302px;
+  position: relative;
+  background-color: var(--color-tan);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 604px;
+  border-radius: 12px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  cursor: pointer;
+}
+
+.navigationbar {
+  width: 604px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeToServeaseContainer {
+  position: relative;
+}
+
+.createYourAccount {
+  position: relative;
+  font-size: var(--font-size-20);
+  color: var(--color-slategray);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 40px;
+  color: var(--color-gray-200);
+}
+
+.serviceProvider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.imRunningA {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  font-size: var(--font-size-16);
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.service1 {
+  position: absolute;
+  top: 16px;
+  left: 148px;
+  width: 308px;
+  height: 54px;
+}
+
+.service3Icon {
+  position: absolute;
+  top: 26px;
+  left: 25px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.service2Icon {
+  position: absolute;
+  top: 25px;
+  left: 93px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.service1Icon {
+  position: absolute;
+  top: 21px;
+  left: 54px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.notselected1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-15);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 570px;
+  height: 86px;
+}
+
+.notselected2 {
+  position: absolute;
+  top: 9.61px;
+  left: 533px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+
+.notselected {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 570px;
+  height: 86px;
+}
+
+.service {
+  position: absolute;
+  top: 111.76px;
+  left: 0px;
+  width: 570px;
+  height: 86px;
+  cursor: pointer;
+}
+
+.client {
+  position: absolute;
+  width: 570px;
+  height: 86px;
+  cursor: pointer;
+}
+
+.notselected5 {
+  position: absolute;
+  top: 10px;
+  left: 533px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+
+.client1 {
+  position: absolute;
+  top: 16px;
+  left: 148px;
+  width: 322px;
+  height: 54px;
+}
+
+.client3Icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.client1Icon {
+  position: absolute;
+  top: 20px;
+  left: 54px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.usertype {
+  width: 570px;
+  position: relative;
+  height: 197.8px;
+  text-align: left;
+  font-size: var(--font-size-20);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+
+.buttontext {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 100.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttoncontainer {
+  width: 454px;
+  position: relative;
+  border-radius: 40px;
+  background-color: var(--color-tan);
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.5;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.signupcontent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 604px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 75px;
+  box-sizing: border-box;
+  gap: 65px;
+}
+
+.authcontent {
+  position: absolute;
+  top: 45.62px;
+  left: 64px;
+  width: 604px;
+  height: 594.8px;
+}
+
+.authwindow {
+  position: absolute;
+  top: 145px;
+  left: 717px;
+  width: 732px;
+  height: 750px;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 129px;
+  right: 50px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.signup1 {
+  display: flex;
+  position: relative;
+  top: -40px;
+  left: 175px;
+  width: 1568px;
+  height: 1024px;
+}
+
+.signup {
+  display: flex;
+  width: 100%;
+  position: relative;
+  background-color: #f9f7f4;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-18);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+  cursor: default;
+}
+
+.authlogoIcon {
+  position: absolute;
+  left: -160px;
+  top: 525px;
+  transform: translateY(-50%);
+  height: 1050px;
+  width: 1050px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.login {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login:hover {
+  background-color: var(--color-tan);
+  opacity: 0.75;
+}
+
+.hoverselect {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 570px;
+  height: 86px;
+  border-radius: var(--br-15);
+  border: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.hoverselectcircle {
+  position: absolute;
+  top: 9px;
+  left: 531px;
+  border-radius: 50%;
+  border: 1px solid var(--color-dimgray);
+  background-color: var(--color-dimgray);
+  width: 25px;
+  height: 25px;
+}
+
+.hovercheckIcon {
+  position: absolute;
+  top: 16px;
+  left: 536px;
+  width: 15px;
+  height: 11px;
+}
+
+.buttoncontainerActive {
+  opacity: 1 !important;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  height: 80px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.errorbox {
+  width: 570px;
+  background-color: #ffe6e6;
+  border: 1px solid #ff4d4f;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  color: #d8000c;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute;
+  bottom: 72px;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+}
+
+.clicked {
+  animation: pressDown 0.2s ease-in-out;
+}
+
+@keyframes pressDown {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.96);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

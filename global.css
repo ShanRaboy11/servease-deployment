@@ -1,0 +1,25 @@
+/* ✅ Font imports – these are fine */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+/* ✅ Tailwind layers – no need to import CSS files manually */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ❌ Remove this – it's invalid CSS:
+@config "../tailwind.config.js";
+*/
+
+/* ✅ Tailwind base customization */
+@layer base {
+  body {
+    @apply leading-normal m-0;
+  }
+
+  *::before,
+  *::after,
+  * {
+    border-width: 0;
+  }
+}
